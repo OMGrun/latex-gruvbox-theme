@@ -74,7 +74,7 @@ Use `\GruvboxReinit[options]` to change settings mid-document:
 
 |                                                                                Swatch                                                                                 | Color             |    Hex    |      RGB      |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------- | :-------: | :-----------: |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FB4934'/></svg>" alt="#FB4934"> | GruvboxDarkRed    | `#FB4934` |  251, 73, 52  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FB4934'/></svg>" alt="#FB4934"> | GruvboxDarkRed    | `#FB4934` |  251, 73, 52  |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23B8BB26'/></svg>" alt="#B8BB26"> | GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FABD2F'/></svg>" alt="#FABD2F"> | GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%2383A598'/></svg>" alt="#83A598"> | GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
