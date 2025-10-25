@@ -5,6 +5,8 @@
 	Gruvbox for <a href="https://www.latex-project.org/">LaTeX</a>	
 </p>
 
+---
+
 ![Example](demo-1.png)
 
 <p align="center">
@@ -56,9 +58,9 @@ Shortcut names without style prefix point to the active style:
 > If you are tired of typing out the full <code class="latex">\textcolor{...}</code>
 > It is possible to define new commands in latex
 >
-> <pre><code class="latex">
+> ```latex
 > \newcommand{\Aqua}[1]{\textcolor{GruvboxDarkAqua}{#1}}
-> </code></pre>
+> ```
 >
 > now you can just type out \Aqua and it should be the color you want!, this works especially well if you are using only one theme and aren't switching.
 
@@ -114,4 +116,4 @@ MIT License
 ## Thanks
 
 Huge thanks to the [Catppuccin LaTeX package](https://github.com/catppuccin/latex) and the original [Gruvbox color scheme](https://github.com/morhetz/gruvbox) which inspired the theme. \
-Thanks to the [Catppuccin LaTeX package](https://github.com/catppuccin/latex) which had all the code ready and I really just modified from theirs, so this project wouldn't exist without them.
+Thanks to the [ Catppuccin LaTeX package ](https://github.com/catppuccin/latex), which provided the foundation for this project. Much of the base code is adapted from theirs.
