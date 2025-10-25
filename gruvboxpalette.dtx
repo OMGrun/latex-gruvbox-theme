@@ -1,0 +1,329 @@
+% \iffalse meta-comment
+%
+% MIT License
+%
+% Copyright (c) 2025 Gruvbox LaTeX Theme
+%
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the "Software"), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+%
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+%
+% \fi
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{gruvboxpalette.dtx}
+%</driver>
+%<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+%<package>\ProvidesPackage{gruvboxpalette}
+%<*package>
+    [2025/01/01 v1.0.0 gruvbox xcolor palette]
+%</package>
+%
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage{gruvboxpalette}
+\usepackage{multicol}
+\usepackage{pgffor}
+\usepackage{tabularx, booktabs}
+\EnableCrossrefs
+\CodelineIndex
+\RecordChanges
+\begin{document}
+  \DocInput{gruvboxpalette.dtx}
+  \PrintChanges
+  \PrintIndex
+\end{document}
+%</driver>
+% \fi
+%
+% \CheckSum{111}
+%
+% \CharacterTable
+%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%   Digits        \0\1\2\3\4\5\6\7\8\9
+%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%   Dollar        \$     Percent       \%     Ampersand     \&
+%   Acute accent  \'     Left paren    \(     Right paren   \)
+%   Asterisk      \*     Plus          \+     Comma         \,
+%   Minus         \-     Point         \.     Solidus       \/
+%   Colon         \:     Semicolon     \;     Less than     \<
+%   Equals        \=     Greater than  \>     Question mark \?
+%   Commercial at \@     Left bracket  \[     Backslash     \\
+%   Right bracket \]     Circumflex    \^     Underscore    \_
+%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%   Right brace   \}     Tilde         \~}
+%
+% 
+% \changes{v1.0.0}{2025/01/01}{Initial release with Gruvbox dark theme}
+%
+% \DoNotIndex{\newcommand,\newenvironment,\color,\colorlet,\def,\fi,\RequirePackage,\ProvidesPackage,\ProcessPgfOptions,\preparecolorset,\pgfkeys,\pagecolor,\newif,\NeedsTeXFormat}
+%
+% \providecommand*\pkg{\textsf}
+% \providecommand*{\url}{\texttt}
+% \GetFileInfo{gruvboxpalette.dtx}
+% \title{The \textsf{gruvboxPalette} package}
+% \author{Gruvbox LaTeX Theme}
+% \date{\fileversion~from \filedate}
+%
+% \maketitle
+%
+% \begin{abstract}
+% The LaTeX package \pkg{gruvboxPalette} provides Gruvbox colors for xcolor.
+% \end{abstract}
+%
+% \section{Introduction}
+%
+% Gruvbox is a retro groove color scheme, there is usually 2 themes; light and dark, however, this package has only implemented the dark colour scheme.
+% This package defines the Gruvbox dark theme as xcolor colors.
+%
+% \section{Usage}
+%
+% Load via |\usepackage{gruvboxpalette}|
+%
+% Just use the new colors (prefixed with \verb|Gruvbox|) like normal xcolors.
+%
+% In addition to the usual colors of the palette, this package defines some
+% colors according to the
+% palette\footnote{\url{https://github.com/morhetz/gruvbox?tab=readme-ov-file#palette}}
+% for ease of use. 
+%
+% This package defines a style option for potential future extensions via the package option
+% \verb|style|
+% This package loads xcolor (without options) so if you want to set some xcolor
+% options you should load xcolor before loading this package.
+%
+% \subsection{Package options}
+% \begin{tabularx}{\linewidth}{lX}
+%   \emph{Option} & \emph{Description}
+%   \\\toprule
+%   \verb|style| &
+%   set the style used by the shortened prefix (\verb|Gruvbox|). Possible values:
+%   \verb|Dark| (default), \verb|dark|
+%   \\
+%   &
+%   As a shortcut, you can also just use e.\,g.\,
+%   |\usepackage[dark]{gruvboxPalette}| as a shorthand for
+%   |\usepackage[style=dark]{gruvboxPalette}|
+%   \\
+%   \verb|textcolor| &
+%   set the default textcolor of the document to \verb|GruvboxFg1|. Possible values:
+%   \verb|false| (initial), \verb|true| (default)
+%   \\
+%   \verb|pagecolor| &
+%   set the pagecolor of the document to \verb|GruvboxBg0|. Possible values:
+%   \verb|false| (initial), \verb|true| (default)
+%   \\
+%   \verb|hyperref| &
+%   style hyperref according to the Gruvbox palette.
+%   Possible values: \verb|false| (initial), \verb|true| (default)
+%   \newline
+%   \textbf{Note:} in order to make this work, \verb|gruvboxpalette| needs to
+%   be loaded \emph{before} the \verb|hyperref| package.
+%   \\\midrule
+%   \verb|styleAll| &
+%   shortcut for setting \verb|pagecolor|, \verb|textcolor| and \verb|hyperref|
+%   \\\bottomrule
+% \end{tabularx}
+%
+% \subsubsection{Change settings mid-document}
+% \DescribeMacro{\GruvboxReinit} |\GruvboxReinit[opts]|
+%
+% This command allows to reinitialize this package. All previous configuration
+% options will be kept. In particular this allows to change the active
+% style mid-document. Note that if you decided this package should
+% change the background color when loading the package and only do
+% |\GruvboxReinit[style=<another style>]|, then the background color will also be
+% adjusted on reinitialization.
+%
+% The command processes the same options like the ones you can pass when
+% loading the package (see documentation above).
+%
+% \subsection{Colors}
+% \newcommand{\showCol}[1]{\raisebox{0.5ex}{\fcolorbox{black}{#1}{\hspace{1em}}} #1}
+% \subsubsection{Style \texttt{Dark}}
+% \begin{multicols}{2}
+% \showCol{GruvboxDarkRed}\par
+% \showCol{GruvboxDarkGreen}\par
+% \showCol{GruvboxDarkYellow}\par
+% \showCol{GruvboxDarkBlue}\par
+% \showCol{GruvboxDarkPurple}\par
+% \showCol{GruvboxDarkAqua}\par
+% \showCol{GruvboxDarkOrange}\par
+% \showCol{GruvboxDarkGray}\par
+% \showCol{GruvboxDarkBg0}\par
+% \showCol{GruvboxDarkBg1}\par
+% \showCol{GruvboxDarkBg2}\par
+% \showCol{GruvboxDarkBg3}\par
+% \showCol{GruvboxDarkBg4}\par
+% \showCol{GruvboxDarkFg0}\par
+% \showCol{GruvboxDarkFg1}\par
+% \showCol{GruvboxDarkFg2}\par
+% \showCol{GruvboxDarkFg3}\par
+% \showCol{GruvboxDarkFg4}\par
+% \end{multicols}
+% Some basic colors according to the palette:
+% \begin{multicols}{2}
+% \showCol{GruvboxDarkBackground}\par
+% \showCol{GruvboxDarkForeground}\par
+% \phantom{}\par
+% \columnbreak
+% \showCol{GruvboxDarkSuccess}\par
+% \showCol{GruvboxDarkWarning}\par
+% \showCol{GruvboxDarkError}\par
+% \end{multicols}
+
+%
+% \StopEventually{}
+%
+% \section{Implementation}
+%
+% \iffalse
+%<*package>
+% \fi
+%
+%    \begin{macrocode}
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\RequirePackage{pgfopts}
+\RequirePackage{xcolor}
+%    \end{macrocode}
+% Define the conditionals used by package options
+%    \begin{macrocode}
+\newif\ifgruvboxpalette@pagecolor
+\newif\ifgruvboxpalette@textcolor
+\newif\ifgruvboxpalette@hyperref
+\pgfkeys{
+	/gruvboxPalette/.cd,
+%    \end{macrocode}
+% Define the package option keys
+%    \begin{macrocode}
+	Dark/.style={style=Dark},
+	dark/.style={style=Dark},
+	style/.is choice,
+	style/.value required,
+	style/Dark/.code = {\def\gruvboxpalette@style{Dark}},
+	style/dark/.style = {style=Dark},
+	textcolor/.is if = gruvboxpalette@textcolor,
+	textcolor/.default = true,
+	hyperref/.is if = gruvboxpalette@hyperref,
+	hyperref/.default = true,
+	pagecolor/.is if = gruvboxpalette@pagecolor,
+	pagecolor/.default = true,
+	styleAll/.style = {pagecolor,textcolor,hyperref},
+%    \end{macrocode}
+% Set initial values for all options
+%    \begin{macrocode}
+	textcolor = false,
+	hyperref  = false,
+	pagecolor = false,
+	style = Dark,
+}
+\ProcessPgfOptions{gruvboxPalette}
+%    \end{macrocode}
+
+% Define the \emph{Dark} colorset
+%    \begin{macrocode}
+\preparecolorset{RGB/HTML}{GruvboxDark}{}{%
+	Red,251,73,52/FB4934;%
+	Green,184,187,38/B8BB26;%
+	Yellow,250,189,47/FABD2F;%
+	Blue,131,165,152/83A598;%
+	Purple,211,134,155/D3869B;%
+	Aqua,142,192,124/8EC07C;%
+	Orange,254,128,25/FE8019;%
+	Gray,146,131,116/928374;%
+	Bg0,40,40,40/282828;%
+	Bg1,60,56,54/3C3836;%
+	Bg2,80,73,69/504945;%
+	Bg3,102,92,84/665C54;%
+	Bg4,124,111,100/7C6F64;%
+	Fg0,251,241,199/FBF1C7;%
+	Fg1,235,219,178/EBDDB2;%
+	Fg2,213,196,161/D5C4A1;%
+	Fg3,189,174,147/BDAE93;%
+	Fg4,168,153,132/A89984%
+}
+%    \end{macrocode}
+% Define colors according to the Gruvbox palette
+%    \begin{macrocode}
+\colorlet{GruvboxDarkBackground}{GruvboxDarkBg0}
+\colorlet{GruvboxDarkForeground}{GruvboxDarkFg1}
+\colorlet{GruvboxDarkSuccess}{GruvboxDarkGreen}
+\colorlet{GruvboxDarkWarning}{GruvboxDarkYellow}
+\colorlet{GruvboxDarkError}{GruvboxDarkRed}
+%    \end{macrocode}
+
+% Define shortcuts for active style
+%    \begin{macrocode}
+\colorlet{GruvboxRed}{GruvboxDarkRed}
+\colorlet{GruvboxGreen}{GruvboxDarkGreen}
+\colorlet{GruvboxYellow}{GruvboxDarkYellow}
+\colorlet{GruvboxBlue}{GruvboxDarkBlue}
+\colorlet{GruvboxPurple}{GruvboxDarkPurple}
+\colorlet{GruvboxAqua}{GruvboxDarkAqua}
+\colorlet{GruvboxOrange}{GruvboxDarkOrange}
+\colorlet{GruvboxGray}{GruvboxDarkGray}
+\colorlet{GruvboxBg0}{GruvboxDarkBg0}
+\colorlet{GruvboxBg1}{GruvboxDarkBg1}
+\colorlet{GruvboxBg2}{GruvboxDarkBg2}
+\colorlet{GruvboxBg3}{GruvboxDarkBg3}
+\colorlet{GruvboxBg4}{GruvboxDarkBg4}
+\colorlet{GruvboxFg0}{GruvboxDarkFg0}
+\colorlet{GruvboxFg1}{GruvboxDarkFg1}
+\colorlet{GruvboxFg2}{GruvboxDarkFg2}
+\colorlet{GruvboxFg3}{GruvboxDarkFg3}
+\colorlet{GruvboxFg4}{GruvboxDarkFg4}
+\colorlet{GruvboxBackground}{GruvboxDarkBg0}
+\colorlet{GruvboxForeground}{GruvboxDarkFg1}
+\colorlet{GruvboxSuccess}{GruvboxDarkGreen}
+\colorlet{GruvboxWarning}{GruvboxDarkYellow}
+\colorlet{GruvboxError}{GruvboxDarkRed}
+%    \end{macrocode}
+
+% New command which parses the same options like the package. Can be used to e.\,g.\, reset/reinit the selected style.
+%    \begin{macrocode}
+\NewDocumentCommand\GruvboxReinit{O{}}{%
+	\pgfkeys{%
+		/gruvboxPalette/.cd,%
+		#1%
+	}%
+%    \end{macrocode}
+% Set pagecolor according to the palette if the user wants this
+%    \begin{macrocode}
+\ifgruvboxpalette@pagecolor%
+	\pagecolor{GruvboxBackground}%
+\fi%
+%    \end{macrocode}
+% Set textcolor according to the palette if the user wants this
+%    \begin{macrocode}
+\ifgruvboxpalette@textcolor%
+	\color{GruvboxForeground}%
+\fi%
+%    \end{macrocode}
+%    \begin{macrocode}
+}
+\GruvboxReinit[]
+%    \end{macrocode}
+\endinput
+%
+% \iffalse
+%</package>
+% \fi
+%
+% \Finale
+\endinput

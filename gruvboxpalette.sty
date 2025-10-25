@@ -1,0 +1,89 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\RequirePackage{pgfopts}
+\RequirePackage{xcolor}
+\newif\ifgruvboxpalette@pagecolor
+\newif\ifgruvboxpalette@textcolor
+\newif\ifgruvboxpalette@hyperref
+\pgfkeys{
+	/gruvboxPalette/.cd,
+	Dark/.style={style=Dark},
+	dark/.style={style=Dark},
+	style/.is choice,
+	style/.value required,
+	style/Dark/.code = {\def\gruvboxpalette@style{Dark}},
+	style/dark/.style = {style=Dark},
+	textcolor/.is if = gruvboxpalette@textcolor,
+	textcolor/.default = true,
+	hyperref/.is if = gruvboxpalette@hyperref,
+	hyperref/.default = true,
+	pagecolor/.is if = gruvboxpalette@pagecolor,
+	pagecolor/.default = true,
+	styleAll/.style = {pagecolor,textcolor,hyperref},
+	textcolor = false,
+	hyperref  = false,
+	pagecolor = false,
+	style = Dark,
+}
+\ProcessPgfOptions{gruvboxPalette}
+\preparecolorset{RGB/HTML}{GruvboxDark}{}{%
+	Red,251,73,52/FB4934;%
+	Green,184,187,38/B8BB26;%
+	Yellow,250,189,47/FABD2F;%
+	Blue,131,165,152/83A598;%
+	Purple,211,134,155/D3869B;%
+	Aqua,142,192,124/8EC07C;%
+	Orange,254,128,25/FE8019;%
+	Gray,146,131,116/928374;%
+	Bg0,40,40,40/282828;%
+	Bg1,60,56,54/3C3836;%
+	Bg2,80,73,69/504945;%
+	Bg3,102,92,84/665C54;%
+	Bg4,124,111,100/7C6F64;%
+	Fg0,251,241,199/FBF1C7;%
+	Fg1,235,219,178/EBDDB2;%
+	Fg2,213,196,161/D5C4A1;%
+	Fg3,189,174,147/BDAE93;%
+	Fg4,168,153,132/A89984%
+}
+\colorlet{GruvboxDarkBackground}{GruvboxDarkBg0}
+\colorlet{GruvboxDarkForeground}{GruvboxDarkFg1}
+\colorlet{GruvboxDarkSuccess}{GruvboxDarkGreen}
+\colorlet{GruvboxDarkWarning}{GruvboxDarkYellow}
+\colorlet{GruvboxDarkError}{GruvboxDarkRed}
+\colorlet{GruvboxRed}{GruvboxDarkRed}
+\colorlet{GruvboxGreen}{GruvboxDarkGreen}
+\colorlet{GruvboxYellow}{GruvboxDarkYellow}
+\colorlet{GruvboxBlue}{GruvboxDarkBlue}
+\colorlet{GruvboxPurple}{GruvboxDarkPurple}
+\colorlet{GruvboxAqua}{GruvboxDarkAqua}
+\colorlet{GruvboxOrange}{GruvboxDarkOrange}
+\colorlet{GruvboxGray}{GruvboxDarkGray}
+\colorlet{GruvboxBg0}{GruvboxDarkBg0}
+\colorlet{GruvboxBg1}{GruvboxDarkBg1}
+\colorlet{GruvboxBg2}{GruvboxDarkBg2}
+\colorlet{GruvboxBg3}{GruvboxDarkBg3}
+\colorlet{GruvboxBg4}{GruvboxDarkBg4}
+\colorlet{GruvboxFg0}{GruvboxDarkFg0}
+\colorlet{GruvboxFg1}{GruvboxDarkFg1}
+\colorlet{GruvboxFg2}{GruvboxDarkFg2}
+\colorlet{GruvboxFg3}{GruvboxDarkFg3}
+\colorlet{GruvboxFg4}{GruvboxDarkFg4}
+\colorlet{GruvboxBackground}{GruvboxDarkBg0}
+\colorlet{GruvboxForeground}{GruvboxDarkFg1}
+\colorlet{GruvboxSuccess}{GruvboxDarkGreen}
+\colorlet{GruvboxWarning}{GruvboxDarkYellow}
+\colorlet{GruvboxError}{GruvboxDarkRed}
+\NewDocumentCommand\GruvboxReinit{O{}}{%
+	\pgfkeys{%
+		/gruvboxPalette/.cd,%
+		#1%
+	}%
+\ifgruvboxpalette@pagecolor%
+	\pagecolor{GruvboxBackground}%
+\fi%
+\ifgruvboxpalette@textcolor%
+	\color{GruvboxForeground}%
+\fi%
+}
+\GruvboxReinit[]
+\endinput
