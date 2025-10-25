@@ -72,38 +72,38 @@ Use `\GruvboxReinit[options]` to change settings mid-document:
 
 #### Dark Style
 
-| Swatch                                                                                                                                                                | Color             | Hex       | RGB           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ------------- |
-| ![](https://placehold.co/15x15/FB4934/FB4934.png.circle)                                                                                                              | GruvboxDarkRed    | `#FB4934` | 251, 73, 52   |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23B8BB26'/></svg>" alt="#B8BB26"> | GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FABD2F'/></svg>" alt="#FABD2F"> | GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%2383A598'/></svg>" alt="#83A598"> | GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23D3869B'/></svg>" alt="#D3869B"> | GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%238EC07C'/></svg>" alt="#8EC07C"> | GruvboxDarkAqua   | `#8EC07C` | 142, 192, 124 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FE8019'/></svg>" alt="#FE8019"> | GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23928374'/></svg>" alt="#928374"> | GruvboxDarkGray   | `#928374` | 146, 131, 116 |
+|                      Swatch                       |       Color       |    Hex    |      RGB      |
+| :-----------------------------------------------: | :---------------: | :-------: | :-----------: |
+| ![](https://placehold.co/55x15/FB4934/FB4934.png) |  GruvboxDarkRed   | `#FB4934` |  251, 73, 52  |
+| ![](https://placehold.co/55x15/B8BB26/B8BB26.png) | GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
+| ![](https://placehold.co/55x15/FABD2F/FABD2F.png) | GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
+| ![](https://placehold.co/55x15/83A598/83A598.png) |  GruvboxDarkBlue  | `#83A598` | 131, 165, 152 |
+| ![](https://placehold.co/55x15/D3869B/D3869B.png) | GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
+| ![](https://placehold.co/55x15/8EC07C/8EC07C.png) |  GruvboxDarkAqua  | `#8EC07C` | 142, 192, 124 |
+| ![](https://placehold.co/55x15/FE8019/FE8019.png) | GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
+| ![](https://placehold.co/55x15/928374/928374.png) |  GruvboxDarkGray  | `#928374` | 146, 131, 116 |
 
 #### Background Layers
 
-|                                                                                Swatch                                                                                 | Color          |    Hex    |      RGB      |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------- | :-------: | :-----------: |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23282828'/></svg>" alt="#282828"> | GruvboxDarkBg0 | `#282828` |  40, 40, 40   |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%233C3836'/></svg>" alt="#3C3836"> | GruvboxDarkBg1 | `#3C3836` |  60, 56, 54   |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23504945'/></svg>" alt="#504945"> | GruvboxDarkBg2 | `#504945` |  80, 73, 69   |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23665C54'/></svg>" alt="#665C54"> | GruvboxDarkBg3 | `#665C54` |  102, 92, 84  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%237C6F64'/></svg>" alt="#7C6F64"> | GruvboxDarkBg4 | `#7C6F64` | 124, 111, 100 |
+|                      Swatch                       |     Color      |    Hex    |      RGB      |
+| :-----------------------------------------------: | :------------: | :-------: | :-----------: |
+| ![](https://placehold.co/55x15/282828/282828.png) | GruvboxDarkBg0 | `#282828` |  40, 40, 40   |
+| ![](https://placehold.co/55x15/3C3836/3C3836.png) | GruvboxDarkBg1 | `#3C3836` |  60, 56, 54   |
+| ![](https://placehold.co/55x15/504945/504945.png) | GruvboxDarkBg2 | `#504945` |  80, 73, 69   |
+| ![](https://placehold.co/55x15/665C54/665C54.png) | GruvboxDarkBg3 | `#665C54` |  102, 92, 84  |
+| ![](https://placehold.co/55x15/7C6F64/7C6F64.png) | GruvboxDarkBg4 | `#7C6F64` | 124, 111, 100 |
 
 ---
 
 #### Foreground Layers
 
-|                                                                                Swatch                                                                                 | Color          |    Hex    |      RGB      |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------- | :-------: | :-----------: |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FBF1C7'/></svg>" alt="#FBF1C7"> | GruvboxDarkFg0 | `#FBF1C7` | 251, 241, 199 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23EBDBB2'/></svg>" alt="#EBDBB2"> | GruvboxDarkFg1 | `#EBDBB2` | 235, 219, 178 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23D5C4A1'/></svg>" alt="#D5C4A1"> | GruvboxDarkFg2 | `#D5C4A1` | 213, 196, 161 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23BDAE93'/></svg>" alt="#BDAE93"> | GruvboxDarkFg3 | `#BDAE93` | 189, 174, 147 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23A89984'/></svg>" alt="#A89984"> | GruvboxDarkFg4 | `#A89984` | 168, 153, 132 |
+|                      Swatch                       |     Color      |    Hex    |      RGB      |
+| :-----------------------------------------------: | :------------: | :-------: | :-----------: |
+| ![](https://placehold.co/55x15/FBF1C7/FBF1C7.png) | GruvboxDarkFg0 | `#FBF1C7` | 251, 241, 199 |
+| ![](https://placehold.co/55x15/EBDBB2/EBDBB2.png) | GruvboxDarkFg1 | `#EBDBB2` | 235, 219, 178 |
+| ![](https://placehold.co/55x15/D5C4A1/D5C4A1.png) | GruvboxDarkFg2 | `#D5C4A1` | 213, 196, 161 |
+| ![](https://placehold.co/55x15/BDAE93/BDAE93.png) | GruvboxDarkFg3 | `#BDAE93` | 189, 174, 147 |
+| ![](https://placehold.co/55x15/A89984/A89984.png) | GruvboxDarkFg4 | `#A89984` | 168, 153, 132 |
 
 ## License
 
