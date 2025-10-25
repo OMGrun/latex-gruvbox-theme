@@ -72,16 +72,16 @@ Use `\GruvboxReinit[options]` to change settings mid-document:
 
 #### Dark Style
 
-| Swatch                                                                                                                                                                | Color             | Hex       | RGB           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ------------- |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FB4934'/></svg>" alt="#FB4934"> | GruvboxDarkRed    | `#FB4934` | 251, 73, 52   |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23B8BB26'/></svg>" alt="#B8BB26"> | GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FABD2F'/></svg>" alt="#FABD2F"> | GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%2383A598'/></svg>" alt="#83A598"> | GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23D3869B'/></svg>" alt="#D3869B"> | GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%238EC07C'/></svg>" alt="#8EC07C"> | GruvboxDarkAqua   | `#8EC07C` | 142, 192, 124 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FE8019'/></svg>" alt="#FE8019"> | GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23928374'/></svg>" alt="#928374"> | GruvboxDarkGray   | `#928374` | 146, 131, 116 |
+| Swatch                                                                                                                                                                 | Color             | Hex       | RGB           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------- | ------------- |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FB4934'/></svg>" alt="#FB4934"/> | GruvboxDarkRed    | `#FB4934` | 251, 73, 52   |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23B8BB26'/></svg>" alt="#B8BB26">  | GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FABD2F'/></svg>" alt="#FABD2F">  | GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%2383A598'/></svg>" alt="#83A598">  | GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23D3869B'/></svg>" alt="#D3869B">  | GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%238EC07C'/></svg>" alt="#8EC07C">  | GruvboxDarkAqua   | `#8EC07C` | 142, 192, 124 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23FE8019'/></svg>" alt="#FE8019">  | GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12'><circle cx='6' cy='6' r='6' fill='%23928374'/></svg>" alt="#928374">  | GruvboxDarkGray   | `#928374` | 146, 131, 116 |
 
 #### Background Layers
 
