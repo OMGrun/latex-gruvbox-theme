@@ -49,6 +49,14 @@ Shortcut names without style prefix point to the active style:
 - `GruvboxBg0`, `GruvboxBg1`, etc. (background layers)
 - `GruvboxFg0`, `GruvboxFg1`, etc. (foreground layers)
 
+<details><summary> Tired of typing out the full `\textcolor{...}`?</summary>
+it is possible to define in latex something like
+    ```latex
+    \newcommand{\Aqua}[1]{\textcolor{GruvboxDarkAqua}{#1}}
+    ```
+    now you can just type out \Aqua and it should be the color you want!, this works especially well if you are using only one theme and aren't switching.
+</details>
+
 ### Mid-document Style Changes
 
 Use `\GruvboxReinit[options]` to change settings mid-document:
@@ -100,4 +108,3 @@ MIT License
 
 Huge thanks to the [Catppuccin LaTeX package](https://github.com/catppuccin/latex) and the original [Gruvbox color scheme](https://github.com/morhetz/gruvbox) which inspired the theme. \
 Thanks to the [Catppuccin LaTeX package](https://github.com/catppuccin/latex) which had all the code ready and I really just modified from theirs, so this project wouldn't exist without them.
-
