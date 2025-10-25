@@ -72,36 +72,36 @@ Use `\GruvboxReinit[options]` to change settings mid-document:
 
 ### Dark Style
 
-| Color             | Hex       | RGB           |
-| ----------------- | --------- | ------------- |
-| GruvboxDarkRed    | `#FB4934` | 251, 73, 52   |
-| GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
-| GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
-| GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
-| GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
-| GruvboxDarkAqua   | `#8EC07C` | 142, 192, 124 |
-| GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
-| GruvboxDarkGray   | `#928374` | 146, 131, 116 |
+|                                                                         Swatch                                                                          | Color             |    Hex    |      RGB      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------- | :-------: | :-----------: |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FB4934'/></svg>"> | GruvboxDarkRed    | `#FB4934` |  251, 73, 52  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23B8BB26'/></svg>"> | GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FABD2F'/></svg>"> | GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%2383A598'/></svg>"> | GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23D3869B'/></svg>"> | GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%238EC07C'/></svg>"> | GruvboxDarkAqua   | `#8EC07C` | 142, 192, 124 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FE8019'/></svg>"> | GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23928374'/></svg>"> | GruvboxDarkGray   | `#928374` | 146, 131, 116 |
 
 #### Background Layers
 
-| Color          | Hex     | RGB           |
-| -------------- | ------- | ------------- |
-| GruvboxDarkBg0 | #282828 | 40, 40, 40    |
-| GruvboxDarkBg1 | #3C3836 | 60, 56, 54    |
-| GruvboxDarkBg2 | #504945 | 80, 73, 69    |
-| GruvboxDarkBg3 | #665C54 | 102, 92, 84   |
-| GruvboxDarkBg4 | #7C6F64 | 124, 111, 100 |
+|                                                                         Swatch                                                                          | Color          |    Hex    |      RGB      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :------------- | :-------: | :-----------: |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23282828'/></svg>"> | GruvboxDarkBg0 | `#282828` |  40, 40, 40   |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%233C3836'/></svg>"> | GruvboxDarkBg1 | `#3C3836` |  60, 56, 54   |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23504945'/></svg>"> | GruvboxDarkBg2 | `#504945` |  80, 73, 69   |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23665C54'/></svg>"> | GruvboxDarkBg3 | `#665C54` |  102, 92, 84  |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%237C6F64'/></svg>"> | GruvboxDarkBg4 | `#7C6F64` | 124, 111, 100 |
 
 #### Foreground Layers
 
-| Color          | Hex     | RGB           |
-| -------------- | ------- | ------------- |
-| GruvboxDarkFg0 | #FBF1C7 | 251, 241, 199 |
-| GruvboxDarkFg1 | #EBDBB2 | 235, 219, 178 |
-| GruvboxDarkFg2 | #D5C4A1 | 213, 196, 161 |
-| GruvboxDarkFg3 | #BDAE93 | 189, 174, 147 |
-| GruvboxDarkFg4 | #A89984 | 168, 153, 132 |
+|                                                                         Swatch                                                                          | Color          |    Hex    |      RGB      |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------: | :------------- | :-------: | :-----------: |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FBF1C7'/></svg>"> | GruvboxDarkFg0 | `#FBF1C7` | 251, 241, 199 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23EBDBB2'/></svg>"> | GruvboxDarkFg1 | `#EBDBB2` | 235, 219, 178 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23D5C4A1'/></svg>"> | GruvboxDarkFg2 | `#D5C4A1` | 213, 196, 161 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23BDAE93'/></svg>"> | GruvboxDarkFg3 | `#BDAE93` | 189, 174, 147 |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23A89984'/></svg>"> | GruvboxDarkFg4 | `#A89984` | 168, 153, 132 |
 
 ## License
 
