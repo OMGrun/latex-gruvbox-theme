@@ -5,7 +5,7 @@
 	Gruvbox for <a href="https://www.latex-project.org/">LaTeX</a>	
 </p>
 
-![Exmaple](demo-1.png)
+![Example](demo-1.png)
 
 <p align="center">
     Content table will be added at a later time
