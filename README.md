@@ -98,12 +98,12 @@ Use `\GruvboxReinit[options]` to change settings mid-document:
 #### Foreground Layers
 
 |                                                                                Swatch                                                                                 | Color          |    Hex    |      RGB      |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------- | :-------: | :-----------: | ---------- |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------- | :-------: | :-----------: |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23FBF1C7'/></svg>" alt="#FBF1C7"> | GruvboxDarkFg0 | `#FBF1C7` | 251, 241, 199 |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23EBDBB2'/></svg>" alt="#EBDBB2"> | GruvboxDarkFg1 | `#EBDBB2` | 235, 219, 178 |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23D5C4A1'/></svg>" alt="#D5C4A1"> | GruvboxDarkFg2 | `#D5C4A1` | 213, 196, 161 |
 | <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23BDAE93'/></svg>" alt="#BDAE93"> | GruvboxDarkFg3 | `#BDAE93` | 189, 174, 147 |
-| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23A89984'/></svg>" alt="#A89984"> | GruvboxDarkFg4 | `#A89984` | 168, 153, 132 | ## License |
+| <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14'><circle cx='7' cy='7' r='7' fill='%23A89984'/></svg>" alt="#A89984"> | GruvboxDarkFg4 | `#A89984` | 168, 153, 132 |
 
 ## License
 
