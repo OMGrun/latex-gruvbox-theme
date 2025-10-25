@@ -30,10 +30,11 @@
 
 ### Package Options
 
+> [!IMPORTANT]
+> There is no light theme yet, feel free to make one!
+
 - `style`: Set the active style (default: `Dark`)
   - `\usepackage[dark]{gruvboxpalette}`
-    > [!IMPORTANT]
-    > There is no light theme yet, feel free to make one!
 - `textcolor`: Set default text color to `GruvboxForeground` (default: `true`)
 - `pagecolor`: Set page background to `GruvboxBackground` (default: `true`)
 - `hyperref`: Style hyperref links according to Gruvbox (default: `true`)
@@ -49,13 +50,15 @@ Shortcut names without style prefix point to the active style:
 - `GruvboxBg0`, `GruvboxBg1`, etc. (background layers)
 - `GruvboxFg0`, `GruvboxFg1`, etc. (foreground layers)
 
-<details><summary> Tired of typing out the full `\textcolor{...}`?</summary>
-it is possible to define in latex something like
-    ```latex
-    \newcommand{\Aqua}[1]{\textcolor{GruvboxDarkAqua}{#1}}
-    ```
-    now you can just type out \Aqua and it should be the color you want!, this works especially well if you are using only one theme and aren't switching.
-</details>
+> [!TIP]
+> If you are tired of typing out the full <code class="latex">\textcolor{...}</code>
+> It is possible to define new commands in latex
+>
+> <pre><code class="latex">
+> \newcommand{\Aqua}[1]{\textcolor{GruvboxDarkAqua}{#1}}
+> </code></pre>
+>
+> now you can just type out \Aqua and it should be the color you want!, this works especially well if you are using only one theme and aren't switching.
 
 ### Mid-document Style Changes
 
@@ -69,16 +72,16 @@ Use `\GruvboxReinit[options]` to change settings mid-document:
 
 ### Dark Style
 
-| Color             | Hex     | RGB           |
-| ----------------- | ------- | ------------- |
-| GruvboxDarkRed    | #FB4934 | 251, 73, 52   |
-| GruvboxDarkGreen  | #B8BB26 | 184, 187, 38  |
-| GruvboxDarkYellow | #FABD2F | 250, 189, 47  |
-| GruvboxDarkBlue   | #83A598 | 131, 165, 152 |
-| GruvboxDarkPurple | #D3869B | 211, 134, 155 |
-| GruvboxDarkAqua   | #8EC07C | 142, 192, 124 |
-| GruvboxDarkOrange | #FE8019 | 254, 128, 25  |
-| GruvboxDarkGray   | #928374 | 146, 131, 116 |
+| Color             | Hex       | RGB           |
+| ----------------- | --------- | ------------- |
+| GruvboxDarkRed    | `#FB4934` | 251, 73, 52   |
+| GruvboxDarkGreen  | `#B8BB26` | 184, 187, 38  |
+| GruvboxDarkYellow | `#FABD2F` | 250, 189, 47  |
+| GruvboxDarkBlue   | `#83A598` | 131, 165, 152 |
+| GruvboxDarkPurple | `#D3869B` | 211, 134, 155 |
+| GruvboxDarkAqua   | `#8EC07C` | 142, 192, 124 |
+| GruvboxDarkOrange | `#FE8019` | 254, 128, 25  |
+| GruvboxDarkGray   | `#928374` | 146, 131, 116 |
 
 #### Background Layers
 
