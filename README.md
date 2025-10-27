@@ -38,7 +38,7 @@
 > There is no light theme yet, feel free to make one!
 
 - `style`: Set the active style (default: `Dark`)
-  - `\usepackage[dark]{gruvboxpalette}`
+  - `\usepackage[styleAll]{gruvboxpalette}`
 - `textcolor`: Set default text color to `GruvboxForeground` (default: `true`)
 - `pagecolor`: Set page background to `GruvboxBackground` (default: `true`)
 - `hyperref`: Style hyperref links according to Gruvbox (default: `true`)
